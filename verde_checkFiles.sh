@@ -2,7 +2,13 @@
 
 #VERIFICACAO DE ARQUIVOS DE SISTEMA
 
-#verifica
+#verifica DIRETORIO
+
+DIR = "~/Documents/Verde_Setup/"
+
+if [ -d "$DIR" ]; then
+  echo essa caralha existe
+fi
 
 #caso existam
 
@@ -10,8 +16,8 @@
 
 #CRIE DIRETORIO PRINCIPAL;
 
-cd ~/Documents; mkdir VerdeAoCubo; cd VerdeAoCubo/
+# cd ~/Documents; mkdir VerdeAoCubo; cd VerdeAoCubo/
 
 #CLONE REPOSITORIO DE ARQUIVOS DE SISTEMA
 
-git clone https://github.com/cAragon/VerdePy; ls
+# git clone https://github.com/cAragon/VerdePy; ls
