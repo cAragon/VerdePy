@@ -1,23 +1,23 @@
 #!/bin/bash
 
-#VERIFICACAO DE ARQUIVOS DE SISTEMA
+#VERIFICACAO DE ARQUIVOS DE SISTEMA#
 
-#verifica DIRETORIO
+#verifica DIRETORIO#
 
 DIR = "~/Documents/Verde_Setup/"
 
 if [ -d "$DIR" ]; then
-  echo essa caralha existe
+  echo essa caralha existe;
 fi
 
-#caso existam
+#caso existam#
+3
+#caso nao existam#
 
-#caso nao existam
+#CRIE DIRETORIO PRINCIPAL;#
 
-#CRIE DIRETORIO PRINCIPAL;
+# cd ~/Documents; mkdir VerdeAoCubo; cd VerdeAoCubo/#
 
-# cd ~/Documents; mkdir VerdeAoCubo; cd VerdeAoCubo/
+#CLONE REPOSITORIO DE ARQUIVOS DE SISTEMA#
 
-#CLONE REPOSITORIO DE ARQUIVOS DE SISTEMA
-
-# git clone https://github.com/cAragon/VerdePy; ls
+# git clone https://github.com/cAragon/VerdePy; ls#
