@@ -6,12 +6,12 @@
 
 #caso existam
 
-#caso não existam
+#caso nao existam
 
-#CRIE DIRETÓRIO PRINCIPAL;
+#CRIE DIRETORIO PRINCIPAL;
 
-cd ~/Documents; mkdir VerdeAoCubo; cd VerdeAoCubo
+cd ~/Documents; mkdir VerdeAoCubo; cd VerdeAoCubo/
 
-#CLONE REPOSITÓRIO DE ARQUIVOS DE SISTEMA
+#CLONE REPOSITORIO DE ARQUIVOS DE SISTEMA
 
 git clone https://github.com/cAragon/VerdePy; ls
